@@ -1,14 +1,7 @@
-/*
 
-TemplateMo 597 Neural Glass
-
-https://templatemo.com/tm-597-neural-glass
-
-*/
 
 
 @charset "utf-8";
-/* CSS Document */
  * {
      margin: 0;
      padding: 0;
@@ -1273,4 +1266,5 @@ https://templatemo.com/tm-597-neural-glass
      background: linear-gradient(45deg, #ff0080, #8000ff);
      box-shadow: 0 0 15px rgba(255, 0, 128, 0.7);
 }
+
 
