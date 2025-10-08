@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ItsAMe's Repo's</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="templatemo-neural-style.css" rel="stylesheet">
+    <style>
+       /* Basic styles for the hero section to ensure it looks good */
+       .hero-section {
+           padding: 100px 20px;
+           text-align: center;
+           min-height: 80vh;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+       }
+       .hero-section h1 {
+           font-size: 3.5rem;
+           margin-bottom: 20px;
+           color: #00ffff;
+           text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+       }
+       .hero-section p {
+           font-size: 1.2rem;
+           margin-bottom: 40px;
+           max-width: 600px;
+           color: #e0a3ff;
+       }
+       /* Style for the button that scrolls down */
+       .scroll-button {
+           display: inline-block;
+           padding: 15px 40px;
+           font-size: 1.2rem;
+           font-weight: 700;
+           text-transform: uppercase;
+           border-radius: 8px;
+           text-decoration: none;
+           color: #000;
+           background: linear-gradient(45deg, #00ffff, #ff69b4); /* Cyan to Pink */
+           transition: all 0.3s ease;
+           box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+           backdrop-filter: blur(5px);
+           -webkit-backdrop-filter: blur(5px);
+           border: none;
+       }
+       .scroll-button:hover {
+           background: linear-gradient(45deg, #ff69b4, #00ffff);
+           box-shadow: 0 0 30px rgba(255, 105, 180, 0.8);
+           transform: translateY(-3px) scale(1.05);
+       }
+
+       /* New section for Repositories */
+       .repos-section {
+           padding: 80px 20px;
+           text-align: center;
+       }
+       .repos-container {
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+           gap: 30px;
+           margin-top: 50px;
+       }
+       .repo-card {
+           width: 300px;
+           background: rgba(40, 0, 70, 0.4); /* Darker purple glass background */
+           border: 1px solid rgba(255, 255, 255, 0.1);
+           border-radius: 15px;
+           overflow: hidden;
+           box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+           backdrop-filter: blur(4px);
+           -webkit-backdrop-filter: blur(4px);
+           transition: transform 0.3s ease;
+       }
+       .repo-card:hover {
+           transform: translateY(-5px);
+           box-shadow: 0 12px 40px 0 rgba(255, 105, 180, 0.5);
+       }
+       .repo-image {
+           width: 100%;
+           height: 180px;
+           object-fit: cover;
+           background: #1a0033; /* Placeholder color */
+           border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+           color: #e0a3ff;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           font-size: 1.5rem;
+       }
+       .repo-content {
+           padding: 20px;
+       }
+       .repo-content h3 {
+           color: #00ffff;
+           margin-bottom: 10px;
+       }
+       .repo-content p {
+           font-size: 0.9rem;
+           margin-bottom: 15px;
+           color: #ccc;
+       }
+       .repo-download-btn {
+           display: block;
+           width: 100%;
+           padding: 10px;
+           background: linear-gradient(90deg, #ff69b4, #9370db);
+           color: #000;
+           text-decoration: none;
+           border-radius: 5px;
+           font-weight: 600;
+           transition: background 0.3s ease;
+       }
+       .repo-download-btn:hover {
+           background: linear-gradient(90deg, #9370db, #ff69b4);
+       }
+
+       /* Responsive adjustments */
+       @media (max-width: 768px) {
+           .repo-card {
+               width: 100%;
+               max-width: 350px;
+           }
+       }
+    </style>
+</head>
+<body>
+    <div class="neural-background"></div>
+    
+    <div class="geometric-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    
+    <header class="glass">
+        <nav>
+            <a href="#" class="logo">ITSAME'S REPO</a>
+            <ul class="nav-links">
+                <li><a href="#repos">Repositories</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-section" id="home">
+        <h1>Welcome to ItsAMe's Repo's</h1>
+        <p>View My Projects/Respositories and also download them here!</p>
+        
+        <a href="#repos" class="scroll-button">
+            View Repositories 👇
+        </a>
+    </section>
+
+    <section class="repos-section" id="repos">
+        <h2 class="section-title" style="margin-bottom: 40px; font-size: 2.5rem; color: #ff69b4;">PROJECTS</h2>
+        
+        <div class="repos-container">
+            
+ <div class="repo-card">
+                <div class="repo-content">
+                    <h3>SoftEther VPN Installer</h3>
+                    <p>an installer that installs the SoftEther VPN Setup.</p>
+                    <a href="https://tinyurl.com/softvpnbat" class="repo-download-btn" target="_blank">
+                        Download EXE
+                    </a>
+                </div>
+            </div>
+
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-copyright">
+                <p>&copy; 2025 ItsAMe's Repo's. All rights reserved.</p>
+            </div>
+            <div class="footer-design">
+                <a href="https://github.com/itsame62" target="_blank" rel="nofollow noopener">ItsAMe62's Github</a>
+            </div>
+        </div>
+    </footer>
+    
+<script src="templatemo-neural-scripts.js"></script>
+</body>
+</html>
